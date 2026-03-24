@@ -24,5 +24,8 @@ urlpatterns = [
     path('home/',views.index,name="home"),
     path('about/',views.about,name="about"),
     path('contact/',views.contact,name="contact"),
+    path('login/',views.login_view,name="contact"),
+    path('signup/',views.signup_view,name="contact"),
+    path('logout/',views.logout_view,name="contact"),
     path('product/<str:name>',views.product,name="product"),
 ]
